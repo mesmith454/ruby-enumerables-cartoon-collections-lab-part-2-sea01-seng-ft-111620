@@ -19,6 +19,6 @@ def find_valid_calls(planeteer_calls)
   count = 0
   planeteer_calls.find { |call| call == valid_calls.map
       call = valid_calls[count]
-  }
   puts call
+  }
 end
