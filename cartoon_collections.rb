@@ -20,7 +20,5 @@ def find_valid_calls(planeteer_calls)
     if call == valid_calls.map
       call = valid_calls[element]
       puts call
-    else
-      puts nil
   }
 end
