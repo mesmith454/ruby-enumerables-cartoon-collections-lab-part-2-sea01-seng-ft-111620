@@ -17,7 +17,7 @@ end
 def find_valid_calls(planeteer_calls)
   valid = nil
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  planeteer_calls.find { |call| call == valid_calls.each
+  planeteer_calls.find { |call| call == valid_calls.any?
   valid = call
   }
   puts valid
