@@ -19,4 +19,5 @@ def find_valid_calls(planeteer_calls)
   if valid_calls.find == planeteer_calls.any? 
     call = planeteer_calls[]
     puts call
+  end
 end
