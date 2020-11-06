@@ -5,14 +5,13 @@ def square_array(array)
 end
 
 def summon_captain_planet(planeteer_calls)
-# planeteer_calls.any? { |i| i.length > 4 }
+ planeteer_calls.map do |i|
+    i.capitalize + "!"
+  end
 end
 
 def long_planeteer_calls(planeteer_calls)
-  if planteer_calls.any? do |call|
-    call.length > 4
-    puts true
-  end
+  planeteer_calls.any? { |i| i.length > 4}
 end
 
 def find_valid_calls(planeteer_calls)
