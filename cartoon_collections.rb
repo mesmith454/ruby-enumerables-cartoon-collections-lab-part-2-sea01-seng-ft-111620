@@ -16,7 +16,7 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  if planeteer_calls.find { |call| call == valid_calls.any? }
+  if valid_calls.find { |call| call == planeteer_calls.any? }
     puts call
   else
     puts nil
