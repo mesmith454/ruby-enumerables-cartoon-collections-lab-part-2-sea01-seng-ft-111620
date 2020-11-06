@@ -20,5 +20,5 @@ def find_valid_calls(planeteer_calls)
     puts call
   else
     puts nil
-  
+  end
 end
