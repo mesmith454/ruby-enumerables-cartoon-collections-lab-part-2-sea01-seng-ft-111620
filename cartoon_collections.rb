@@ -16,12 +16,7 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  index = 0
-  if planeteer_calls.any? == valid_calls.any?
-    valid_calls[index]
+  if valid_calls.find == planeteer_calls.any? 
+    call = planeteer_calls[]
     puts call
-  else
-    puts nil
-  end
-  index += 1
 end
